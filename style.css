@@ -80,8 +80,32 @@ html {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.min-dropdown {
+  display: none;
+}
 
-@media screen and (max-width: 768px) {
+.nav-menu {
+  display: none;
+  /* height: 20vh; */
+}
+
+@media screen and (min-width: 900px) and (max-width: 1240px) {
+  .max-expanded {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .lists {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 50vh;
+    margin: 1rem;
+  }
+  .nav-menu {
+    display: block;
+  }
 }
 
 /* ad */
