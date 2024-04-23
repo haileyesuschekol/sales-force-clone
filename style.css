@@ -25,8 +25,6 @@ html {
   display: flex;
   width: 100%;
   position: relative;
-  /* gap: 8rem; */
-  /* flex-grow: 1; */
 }
 
 .lists {
@@ -71,7 +69,6 @@ html {
 }
 
 .nav-contact {
-  text-align: center;
   text-decoration: underline;
   font-weight: normal;
 }
@@ -84,7 +81,6 @@ html {
   display: inline-block;
   font-size: 1.6rem;
   text-decoration: none;
-  text-align: center;
 }
 
 .btn-green:hover {
@@ -104,41 +100,36 @@ html {
   }
   .nav-1 {
     display: none;
-    /* display: flex;
+  }
+  .expand {
+    width: 50vw;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     height: 70vh;
-    background: #f3f3f3;
+    background: #fff;
     position: fixed;
     top: 75px;
     left: 0;
-    transition: all 0.5s; */
+    border: 1px solid #e2e2e2;
   }
 
   .nav-1 li {
-    padding: 1.2rem 1.9rem;
+    padding: 1.2rem 1.4rem;
   }
 
   .nav-1 li a {
     padding: 0 2rem;
-    font-size: 2.3rem;
+    font-size: 2rem;
+  }
+
+  .nav-contact a {
+    padding: 0 2rem;
   }
   .btn {
     padding: 1rem 1rem;
   }
-}
-
-.expand-collabs {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  height: 70vh;
-  background: #f3f3f3;
-  position: absolute;
-  top: 100%;
-  right: 10%;
 }
 
 /* ad */
