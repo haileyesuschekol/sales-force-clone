@@ -538,3 +538,55 @@ body {
     width: 40rem;
   }
 }
+
+/* icons */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.description-icons {
+  max-width: 15rem;
+  height: auto;
+  margin: 2rem 3rem;
+}
+.icon-img {
+  width: 50%;
+}
+
+.icon-text {
+  font-size: 1.7rem;
+}
+.icon-link-text {
+  text-decoration: none;
+  color: #032d60;
+}
+.icon-link-text:hover {
+  color: #0176d3;
+}
+
+@media screen and (max-width: 900px) {
+  .description-icons {
+    max-width: 10rem;
+    height: 10rem;
+    margin: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon-container {
+    display: flex;
+  }
+  .description-icons {
+    max-width: 7rem;
+    height: 10rem;
+    margin: 2rem 1rem;
+  }
+  .icon-img {
+    width: 100%;
+  }
+  .icon-text {
+    font-size: 1.4rem;
+  }
+}
