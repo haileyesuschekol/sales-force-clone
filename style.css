@@ -590,3 +590,7 @@ body {
     font-size: 1.4rem;
   }
 }
+
+.description-mb {
+  margin-bottom: 4rem;
+}
