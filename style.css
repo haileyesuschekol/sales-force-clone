@@ -613,3 +613,42 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: 0 1rem;
 }
+
+@media screen and (max-width: 1100px) {
+  .company-logo-container {
+    max-width: 800px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .company-logo {
+    width: 15rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .company-logo-container {
+    max-width: 800px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .company-logo {
+    width: 10rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .company-logo-container {
+    max-width: 600px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .company-logo {
+    width: 8rem;
+    padding: 1rem;
+  }
+  .logo-container {
+    margin: 0 0.2rem;
+  }
+}
