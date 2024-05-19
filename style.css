@@ -435,7 +435,7 @@ body {
   max-width: 1200px;
   margin: 5rem auto;
   text-align: center;
-  margin: 6rem;
+  margin: 3rem;
 }
 
 .description-1-header {
@@ -593,4 +593,23 @@ body {
 
 .description-mb {
   margin-bottom: 4rem;
+}
+
+.company-logo-container {
+  max-width: 1200px;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  width: 20rem;
+  padding: 2rem;
+}
+
+.logo-container {
+  border-radius: 1rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 1rem;
 }
