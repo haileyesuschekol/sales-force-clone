@@ -659,7 +659,7 @@ body {
   max-width: 1300px;
   gap: 4rem;
   margin: 0 auto;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 .img-banner-container {
@@ -686,4 +686,48 @@ body {
 
 .banner-description {
   margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .banner-section {
+    max-width: 900px;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .banner-section {
+    max-width: 800px;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 832px) {
+  .banner-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    gap: 2rem;
+  }
+  .img-banner-container {
+    width: 50rem;
+  }
+  .banner-discription {
+    margin: 0 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 2rem;
+  }
+  .img-banner-container {
+    width: 40rem;
+  }
+
+  .banner-discription {
+    margin: 0 2rem;
+  }
 }
