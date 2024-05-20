@@ -652,3 +652,38 @@ body {
     margin: 0 0.2rem;
   }
 }
+
+/* banner */
+.banner-section {
+  display: flex;
+  max-width: 1300px;
+  gap: 4rem;
+  margin: 0 auto;
+  justify-content: start;
+  align-items: center;
+}
+.img-banner-container {
+  height: auto;
+  width: 70rem;
+}
+.img-banner {
+  width: 100%;
+}
+
+.banner-discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-align {
+  align-self: start;
+}
+
+.banner-header {
+  margin-bottom: 3rem;
+}
+
+.banner-description {
+  margin-bottom: 6rem;
+}
