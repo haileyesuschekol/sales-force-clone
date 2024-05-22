@@ -731,3 +731,58 @@ body {
     margin: 0 2rem;
   }
 }
+
+/* description */
+
+.description-middle {
+  max-width: 1300px;
+  margin: 6rem auto;
+  text-align: left;
+}
+.badge-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.badge-header2 {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.card-3 {
+  padding: 3rem;
+  width: 35rem;
+  height: 20rem;
+}
+.card-badge {
+  margin-bottom: 1rem;
+  display: inline-block;
+  text-align: left;
+  border-radius: 80px;
+  background: #1ea7fd33;
+}
+.badge-title {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.7rem 1.1rem;
+}
+.badge-description-container {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+.badge-description {
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding: 0;
+}
+.card-badge-link {
+  text-align: left;
+  padding: 0;
+}
+.badge-link {
+  padding: 0;
+}
+
+.badge-btn {
+  margin-top: 6rem;
+  text-align: center;
+}
