@@ -213,6 +213,10 @@ body {
   /* opacity: 0.4; */
 }
 
+.hero-header-banner {
+  background: url("images/marquee-starter-lg-bg.webp");
+}
+
 .hero-header {
   color: #032d60;
   font-size: 4.8rem;
