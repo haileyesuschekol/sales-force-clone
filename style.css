@@ -832,3 +832,39 @@ body {
     height: 20rem;
   }
 }
+
+/* footer */
+.footer-container {
+  background: #0b5cab;
+  text-align: center;
+  margin: 2rem 0;
+}
+.footer-section {
+  padding: 1rem 0;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.foote-ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.foote-ul li {
+  padding: 1rem;
+}
+
+.foote-ul li a {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.foote-ul li a:hover {
+  text-decoration: none;
+}
+
+.footer-section p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
