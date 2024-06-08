@@ -1,0 +1,14 @@
+{
+  "name": "sales-force-clone",
+  "version": "1.0.0",
+  "description": "clone sales force website landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haileyesus",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
