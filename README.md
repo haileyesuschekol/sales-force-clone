@@ -18,10 +18,10 @@ This is a frontend clone of the Salesforce website, built with React.js and styl
 
 1. Clone the repository:
 
-   ````bash
-   https://github.com/haileyesuschekol/sales-force-clone.git```
+   ```bash
+   https://github.com/haileyesuschekol/sales-force-clone.git
 
-   ````
+   ```
 
 2. Install dependencies:
 
